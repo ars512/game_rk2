@@ -1,12 +1,10 @@
 using UnityEngine;
 
-// Подгоняет RectTransform под Screen.safeArea (вырез, скругления, жесты).
-// Фон остаётся на весь экран, а кнопки и текст лежат внутри этой панели.
+
 [ExecuteAlways]
 [RequireComponent(typeof(RectTransform))]
 public class SafeArea : MonoBehaviour
 {
-    // Нужен для скриншотов без реального симулятора: подменяет safeArea.
     public static Rect? Override;
     public static Vector2Int OverrideScreen;
 
