@@ -1,6 +1,6 @@
 AI usage log - Ember Moth
 
-Tool: Claude Code (Claude Sonnet 5.5), driven from VS Code.
+Tool: ChatGPT
 
 What the AI did:
 - Proposed the game idea and wrote the GDD text (docs/GDD.html -> PDF).
